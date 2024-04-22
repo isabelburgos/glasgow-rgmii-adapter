@@ -54,12 +54,12 @@
 
 
 ## 48-pin QFNs
-- [[RTL8211E(G)-xx-CG.pdf|RTL8211E]]
-- [[RTL8211D-VB-GR.pdf|RTL8211D]]
+- [RTL8211E](Datasheets/RTL8211E(G)-xx-CG.pdf)
+- [RTL8211D](Datasheets/RTL8211D-VB-GR.pdf)
 
 ## 64-pin QFNs
-- [[KSZ9031RNX.pdf|KSZ9031RNX]]
-- [[RTL8211D-VB-GR.pdf|RTL8211DG]]
+- [KSZ9031RNX](Datasheets/KSZ9031RNX.pdf)
+- [RTL8211DG](Datasheets/RTL8211D-VB-GR.pdf)
 
 ## 88-pin QFNs
-- [[RTL8211D-VB-GR.pdf|RTL8211DN]]
+- [RTL8211DN](Datasheets/RTL8211D-VB-GR.pdf)
