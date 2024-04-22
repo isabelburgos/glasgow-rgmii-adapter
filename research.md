@@ -1,9 +1,9 @@
 ## 40-pin QFNs
-- [[mxl86110.pdf|MxL86110]]
-- [[YT8531C.pdf|YT8531C]]
-- [[RTL8211F-CG.pdf|RTL8211F-CG]]
+- [MxL86110](Datasheets/mxl86110.pdf)
+- [YT8531C](Datasheets/YT8531C.pdf)
+- [RTL8211F-CG](Datasheets/RTL8211F-CG.pdf)
 
-| Part#  | [[mxl86110.pdf\|MxL86110]] | [[YT8531C.pdf\|YT8531C]] | [[RTL8211F-CG.pdf\|RTL8211F-CG]]
+| Part#  | [MxL86110](Datasheets/mxl86110.pdf) | [YT8531C](Datasheets/YT8531C.pdf) | [RTL8211F-CG](Datasheets/RTL8211F-CG.pdf)
 |----|----|----|----|
 | Function  | Pin# | Pin# | Pin# |
 | TP A+ | 1 | 1 | 1
