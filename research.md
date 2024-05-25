@@ -173,6 +173,7 @@
 
 # What interfaces are supported?
 | Part# | RGMII | GMII | SGMII
+|---|---|---|---|
 | [RTL8211E](Datasheets/RTL8211E(G)-xx-CG.pdf) | ✅ | | |
 | [RTL8211D](Datasheets/RTL8211D-VB-GR.pdf) | ✅ | | |
 | [RTL8211EG](Datasheets/RTL8211E(G)-xx-CG.pdf) | ✅ | ✅ | |
