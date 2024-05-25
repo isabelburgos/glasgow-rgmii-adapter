@@ -163,6 +163,8 @@
 | NC | 47 |
 | I Set | 48
 
+## 56-pin QFNs
+- [LAN8820](Datasheets/LAN8820.pdf)
 
 
 ## 64-pin QFNs
@@ -176,6 +178,7 @@
 |---|---|---|---|
 | [RTL8211E](Datasheets/RTL8211E(G)-xx-CG.pdf) | ✅ | | |
 | [RTL8211D](Datasheets/RTL8211D-VB-GR.pdf) | ✅ | | |
+| [KSZ9031RNX](Datasheets/KSZ9031RNX.pdf) | ✅ | | |
 | [RTL8211EG](Datasheets/RTL8211E(G)-xx-CG.pdf) | ✅ | ✅ | |
 | [RTL8211DG](Datasheets/RTL8211D-VB-GR.pdf) | ✅ | ✅ | |
 | [RTL8211DN](Datasheets/RTL8211D-VB-GR.pdf) | ✅ | ✅ | ✅ |
