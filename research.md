@@ -55,6 +55,7 @@
 - [RTL8211E](Datasheets/RTL8211E(G)-xx-CG.pdf)
 - [RTL8211D](Datasheets/RTL8211D-VB-GR.pdf)
 - [KSZ9031RNX](Datasheets/KSZ9031RNX.pdf)
+    - Die photo: https://siliconpr0n.org/map/micrel/ksz9031rnx/azonenberg_mz_mit20x
 
 
 | Part#  | [RTL8211E](Datasheets/RTL8211E(G)-xx-CG.pdf) | [RTL8211D](Datasheets/RTL8211D-VB-GR.pdf)
