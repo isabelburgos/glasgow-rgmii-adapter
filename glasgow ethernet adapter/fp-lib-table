@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "glasgow")(type "KiCad")(uri "${KIPRJMOD}/glasgow.pretty")(options "")(descr ""))
+)
