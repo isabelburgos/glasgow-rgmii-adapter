@@ -820,4 +820,26 @@
 		(remove_unused_layers no)
 		(uuid "47a279b2-226f-4719-831e-354a79d6223e")
 	)
+	(model "${KIPRJMOD}/3D models/SFH11-PBPC-D10-ST-BK.step"
+		(offset
+			(xyz 14 19 -1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 180)
+		)
+	)
+	(model "${KIPRJMOD}/3D models/SFH11-PBPC-D10-ST-BK.step"
+		(offset
+			(xyz 14 -19 -1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -180 180)
+		)
+	)
 )

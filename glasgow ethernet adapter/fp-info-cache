@@ -1,4 +1,4 @@
-23048669779822293
+23053958387714645
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94388,6 +94388,13 @@ Varistor VF
 2
 2
 glasgow
+AMPHENOL_RJMG1S8008101BR
+
+
+0
+10
+10
+glasgow
 Glasgow
 
 
@@ -94422,3 +94429,17 @@ mounting hole 3.5mm Courtyard
 0
 11
 1
+glasgow
+QFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm
+QFN, 40 Pin (http://www.issi.com/WW/pdf/31FL3736.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+58
+41
+glasgow
+R-3-Way_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+3
+3

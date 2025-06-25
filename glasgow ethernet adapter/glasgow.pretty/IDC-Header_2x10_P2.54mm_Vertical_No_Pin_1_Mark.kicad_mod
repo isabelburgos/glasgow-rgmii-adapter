@@ -418,6 +418,7 @@
 		(uuid "5825b290-df93-4320-b277-f264f3788d66")
 	)
 	(model "${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x10_P2.54mm_Vertical.wrl"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
@@ -426,6 +427,17 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/isabelburgos/Open-Beam-Interface/Hardware/PCBs/Data Interconnect/3D Models/SFH11-PBPC-D10-ST-BK.step"
+		(offset
+			(xyz 1.25 -11.5 -1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 180 90)
 		)
 	)
 )
