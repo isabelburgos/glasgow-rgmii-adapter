@@ -1,4 +1,4 @@
-23053958387714645
+23057502362347870
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94393,7 +94393,14 @@ AMPHENOL_RJMG1S8008101BR
 
 0
 10
-10
+9
+glasgow
+AMPHENOL_RJMG201K21120FR
+
+
+0
+16
+16
 glasgow
 Glasgow
 
@@ -94443,3 +94450,10 @@ resistor
 0
 3
 3
+glasgow
+XTAL_ECS-160-9-37-CKM-TR
+
+
+0
+4
+4
