@@ -8838,6 +8838,16 @@
 		)
 		(uuid "bcd182e5-086f-48ce-9cae-ae937d4d595d")
 	)
+	(text "Glasgow IO pins have built in ESD protection\nand 33Ω series resistors"
+		(exclude_from_sim no)
+		(at 50.8 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da365605-8eef-4c4f-a1b1-5fd1dfc67efd")
+	)
 	(text "Model: \nECS-250-10-37B-CTN-TR\nSpec:\n50 ohms\n+-50 ppm"
 		(exclude_from_sim no)
 		(at 118.364 184.404 0)
