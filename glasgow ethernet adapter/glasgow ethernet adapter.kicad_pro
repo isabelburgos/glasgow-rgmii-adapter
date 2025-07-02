@@ -604,6 +604,10 @@
       {
         "netclass": "Differential",
         "pattern": "/T-"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "C_GND"
       }
     ]
   },
