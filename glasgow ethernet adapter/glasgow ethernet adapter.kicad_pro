@@ -608,6 +608,10 @@
       {
         "netclass": "Power",
         "pattern": "C_GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/TCT"
       }
     ]
   },
