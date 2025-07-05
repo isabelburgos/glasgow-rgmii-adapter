@@ -547,7 +547,8 @@
       "/R-": "rgb(255, 153, 0)",
       "/RX+": "rgb(0, 194, 194)",
       "/RX-": "rgb(221, 133, 0)",
-      "Net-(J2-RCT)": "rgb(0, 194, 0)"
+      "Net-(J2-RCT)": "rgb(0, 194, 0)",
+      "Net-(U1-REG_O)": "rgb(255, 255, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
