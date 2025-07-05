@@ -8130,6 +8130,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 167.64) (xy 69.85 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971e966e-7e4f-4547-a909-283ba816d8e8")
+	)
+	(wire
+		(pts
 			(xy 24.13 54.61) (xy 24.13 57.15)
 		)
 		(stroke
@@ -8370,6 +8380,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 157.48) (xy 27.94 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b360a83f-04f4-4023-a566-c93fd6b3d3bd")
+	)
+	(wire
+		(pts
 			(xy 275.59 26.67) (xy 276.86 26.67)
 		)
 		(stroke
@@ -8507,6 +8527,16 @@
 			(type default)
 		)
 		(uuid "c380e5a9-f1c5-476f-a5bb-e52b6b9ade07")
+	)
+	(wire
+		(pts
+			(xy 46.99 157.48) (xy 49.53 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45fa0c9-2ab5-4ce8-9b29-ff26c8dc548d")
 	)
 	(wire
 		(pts
@@ -9016,7 +9046,7 @@
 	)
 	(rectangle
 		(start 12.7 78.74)
-		(end 78.74 193.04)
+		(end 78.74 180.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -9120,7 +9150,7 @@
 	)
 	(text "Set CFG_LDO to b00:\nDisable internal LDO,\nuse external 3.3V for\nDVDD_RGMII"
 		(exclude_from_sim no)
-		(at 27.432 186.436 0)
+		(at 36.322 175.514 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9130,7 +9160,7 @@
 	)
 	(text "Pull up CFG_EXT:\nUse external power source\nfor RGMII and MDIO pins"
 		(exclude_from_sim no)
-		(at 64.516 185.928 0)
+		(at 63.754 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9336,7 +9366,7 @@
 		(uuid "162af785-f260-4659-a681-8062b2f390d0")
 	)
 	(label "CFG_LDO1"
-		(at 45.72 167.64 180)
+		(at 46.99 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9358,7 +9388,7 @@
 		(uuid "1897d984-6d39-4985-a4f6-0a1bdd8fcdeb")
 	)
 	(label "CFG_LDO0"
-		(at 24.13 167.64 180)
+		(at 25.4 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9897,7 +9927,7 @@
 		(uuid "b836bb18-5a25-4f59-9d51-cf7be5265c95")
 	)
 	(label "PHYAD2"
-		(at 67.31 137.16 180)
+		(at 66.04 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11941,7 +11971,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 175.26 0)
+		(at 27.94 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11950,7 +11980,7 @@
 		(fields_autoplaced yes)
 		(uuid "30b5dcd0-11d7-4407-8a70-f32df60c976a")
 		(property "Reference" "#PWR08"
-			(at 26.67 181.61 0)
+			(at 27.94 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11959,7 +11989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 179.3931 0)
+			(at 27.94 169.2331 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11967,7 +11997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 175.26 0)
+			(at 27.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11976,7 +12006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 175.26 0)
+			(at 27.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11985,7 +12015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 175.26 0)
+			(at 27.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12349,7 +12379,7 @@
 	)
 	(symbol
 		(lib_id "glasgow:R-3-way")
-		(at 69.85 133.35 0)
+		(at 68.58 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12358,7 +12388,7 @@
 		(fields_autoplaced yes)
 		(uuid "3978a887-e1f6-414d-b26c-852ae240f68c")
 		(property "Reference" "R8"
-			(at 71.628 135.9478 0)
+			(at 70.358 135.9478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,7 +12397,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 71.628 138.3721 0)
+			(at 70.358 138.3721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12376,7 +12406,7 @@
 			)
 		)
 		(property "Footprint" "glasgow:R-3-Way_0402_1005Metric"
-			(at 68.072 133.35 90)
+			(at 66.802 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12385,7 +12415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 133.35 0)
+			(at 68.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12394,7 +12424,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 133.35 0)
+			(at 68.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13239,72 +13269,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 48.26 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b9357b2-4f9e-4e43-9a1b-14fe94c63489")
-		(property "Reference" "#PWR013"
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 48.26 155.8869 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 48.26 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b948872-75b7-44ac-ae27-45a3a52f7bb5")
-		)
-		(instances
-			(project "glasgow ethernet adapter"
-				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 156.21 161.29 0)
 		(unit 1)
@@ -13841,72 +13805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 69.85 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "645dc863-c2c7-40eb-93f5-e7c0fe4aa65e")
-		(property "Reference" "#PWR020"
-			(at 69.85 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 179.3931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d65138bb-aa1a-4cd2-9166-a3dc590a3143")
-		)
-		(instances
-			(project "glasgow ethernet adapter"
-				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "glasgow:Glasgow Ports")
 		(at 82.55 46.99 0)
 		(unit 2)
@@ -14413,152 +14311,6 @@
 			(project "glasgow ethernet adapter"
 				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "glasgow:R-3-way")
-		(at 48.26 171.45 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72bb376d-6a21-4a1c-b31f-4950acbae487")
-		(property "Reference" "R6"
-			(at 50.038 166.4278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 50.038 168.8521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "glasgow:R-3-Way_0402_1005Metric"
-			(at 46.482 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 48.26 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d8d1822-5915-4178-9f07-d0a5aeb54dcf")
-		)
-		(pin "3"
-			(uuid "2205cc02-2a21-4f95-890e-44a8d0e4fb16")
-		)
-		(pin "1"
-			(uuid "ea6f8579-9ea2-43ad-8abf-a07d47c16605")
-		)
-		(instances
-			(project "glasgow ethernet adapter"
-				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "glasgow:R-3-way")
-		(at 26.67 171.45 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72bc62f2-3e3b-41e2-829e-a4e419869baf")
-		(property "Reference" "R3"
-			(at 28.448 166.4278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 28.448 168.8521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "glasgow:R-3-Way_0402_1005Metric"
-			(at 24.892 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da980935-6450-40fc-8e62-ad8e777215eb")
-		)
-		(pin "3"
-			(uuid "0a13e772-224d-4d09-8aaf-b4178f4a1157")
-		)
-		(pin "1"
-			(uuid "4845fe6b-15a2-464a-a806-fa2f9c57a5a7")
-		)
-		(instances
-			(project "glasgow ethernet adapter"
-				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15729,72 +15481,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 26.67 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b94a44a-062b-42a7-ae94-794c68340ec6")
-		(property "Reference" "#PWR07"
-			(at 26.67 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 26.67 155.8869 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 26.67 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3830768-78cb-4f4f-aaaf-99410b04916a")
-		)
-		(instances
-			(project "glasgow ethernet adapter"
-				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 149.86 90.17 0)
 		(unit 1)
@@ -16466,6 +16152,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 27.94 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8fba177-db45-46ec-bc04-5c6df13d0e2f")
+		(property "Reference" "R3"
+			(at 22.606 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 21.844 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 26.162 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a6c4f5e-e767-48bb-9d81-2abcdeb81ba6")
+		)
+		(pin "1"
+			(uuid "4106a372-b6ca-4f1d-9994-5390055cd66c")
+		)
+		(instances
+			(project "glasgow ethernet adapter"
+				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "glasgow:R-3-way")
 		(at 68.58 96.52 0)
 		(unit 1)
@@ -16540,7 +16295,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 144.78 0)
+		(at 68.58 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16549,7 +16304,7 @@
 		(fields_autoplaced yes)
 		(uuid "ada5c99f-b874-4af7-b6a5-f0fc5c9a80c6")
 		(property "Reference" "#PWR018"
-			(at 69.85 151.13 0)
+			(at 68.58 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16558,7 +16313,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 148.9131 0)
+			(at 68.58 148.9131 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16566,7 +16321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 144.78 0)
+			(at 68.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16575,7 +16330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 144.78 0)
+			(at 68.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16584,7 +16339,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 144.78 0)
+			(at 68.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17083,79 +16838,6 @@
 		)
 	)
 	(symbol
-		(lib_id "glasgow:R-3-way")
-		(at 69.85 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf799c7d-8bc5-41ac-95cc-1a11f97c2433")
-		(property "Reference" "R9"
-			(at 71.628 166.4278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 71.628 168.8521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "glasgow:R-3-Way_0402_1005Metric"
-			(at 68.072 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f90a2dd-bbb9-450d-adb5-3efba91c5f7c")
-		)
-		(pin "3"
-			(uuid "02893c7c-b8b4-4fcd-ab76-86ca5bce52bc")
-		)
-		(pin "1"
-			(uuid "035e1380-56ae-4b90-9d81-130f9cb81cf8")
-		)
-		(instances
-			(project "glasgow ethernet adapter"
-				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 217.17 36.83 0)
 		(unit 1)
@@ -17499,7 +17181,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 69.85 129.54 0)
+		(at 68.58 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17508,7 +17190,7 @@
 		(fields_autoplaced yes)
 		(uuid "cba755c9-02c3-4ff0-9fdb-1ce623510278")
 		(property "Reference" "#PWR017"
-			(at 69.85 133.35 0)
+			(at 68.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17517,7 +17199,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 69.85 125.4069 0)
+			(at 68.58 125.4069 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17525,7 +17207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 129.54 0)
+			(at 68.58 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17534,7 +17216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 129.54 0)
+			(at 68.58 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17543,7 +17225,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 69.85 129.54 0)
+			(at 68.58 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17834,7 +17516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 175.26 0)
+		(at 49.53 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17843,7 +17525,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8557ddc-1039-4b78-a7e0-880646dc9b32")
 		(property "Reference" "#PWR014"
-			(at 48.26 181.61 0)
+			(at 49.53 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17852,7 +17534,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 179.3931 0)
+			(at 49.53 169.2331 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17860,7 +17542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 175.26 0)
+			(at 49.53 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17869,7 +17551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 175.26 0)
+			(at 49.53 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17878,7 +17560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 175.26 0)
+			(at 49.53 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18030,6 +17712,75 @@
 			(project "glasgow ethernet adapter"
 				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3bbc511-394a-4e1f-960d-21e60ee73aa7")
+		(property "Reference" "R6"
+			(at 44.196 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 43.434 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 47.752 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7e424e2-bfcc-4011-a908-7b9204bd4942")
+		)
+		(pin "1"
+			(uuid "e64a30c9-4285-40cf-a1bd-f904dcf653ab")
+		)
+		(instances
+			(project "glasgow ethernet adapter"
+				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -18294,6 +18045,75 @@
 			(project "glasgow ethernet adapter"
 				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eecdca9d-9fad-4178-b92b-8b3737d58f73")
+		(property "Reference" "R9"
+			(at 75.184 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 75.946 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.628 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01b2f517-4e9b-4dca-bf17-7638d9fd03be")
+		)
+		(pin "1"
+			(uuid "8a1ab065-83c3-4f85-8e6b-5a39d6d7e28b")
+		)
+		(instances
+			(project "glasgow ethernet adapter"
+				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
+					(reference "R9")
 					(unit 1)
 				)
 			)
