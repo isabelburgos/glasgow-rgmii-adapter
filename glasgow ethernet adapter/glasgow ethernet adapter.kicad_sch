@@ -9190,16 +9190,6 @@
 	)
 	(text "OSC"
 		(exclude_from_sim no)
-		(at 160.528 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a329f666-929a-40e9-98c6-eef72b16b38e")
-	)
-	(text "OSC"
-		(exclude_from_sim no)
 		(at 139.7 157.226 0)
 		(effects
 			(font
@@ -9217,6 +9207,16 @@
 			)
 		)
 		(uuid "aa77c13c-99ba-4018-8718-9c4bb44800a6")
+	)
+	(text "Place for OSC"
+		(exclude_from_sim no)
+		(at 165.1 165.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae9af153-3fec-47a1-a129-07a449214ac6")
 	)
 	(text "1% precision resistor\nfor calibration"
 		(exclude_from_sim no)
@@ -9278,9 +9278,9 @@
 		)
 		(uuid "da365605-8eef-4c4f-a1b1-5fd1dfc67efd")
 	)
-	(text "Crystal: ECS-250-10-37B-CTN-TR\nOscillator: SG-210STF 25.0000ML0\nSpec:\n50 ohms\n+-50 ppm"
+	(text "Crystal: ECS-250-10-37B-CTN-TR\nOscillator: SG-210STF 25.0000ML0, \n		OT201625MJBA4SL\nSpec:\n50 ohms\n+-50 ppm"
 		(exclude_from_sim no)
-		(at 93.472 190.5 0)
+		(at 89.662 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13275,7 +13275,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4ce2e100-23be-4fa1-bc3d-b4db88d9f70c")
 		(property "Reference" "C4"
 			(at 159.766 160.3897 0)
@@ -14855,8 +14855,7 @@
 	)
 	(symbol
 		(lib_id "glasgow:R-3-way")
-		(at 143.51 165.1 0)
-		(mirror x)
+		(at 143.51 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14864,7 +14863,7 @@
 		(dnp no)
 		(uuid "81c6ec15-048d-435b-bf7e-37f371ff0ab6")
 		(property "Reference" "R25"
-			(at 145.288 165.354 0)
+			(at 145.288 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14873,7 +14872,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 142.748 165.1 0)
+			(at 142.748 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14882,7 +14881,7 @@
 			)
 		)
 		(property "Footprint" "glasgow:R-3-Way_0402_1005Metric"
-			(at 141.732 165.1 90)
+			(at 141.732 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14891,7 +14890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 165.1 0)
+			(at 143.51 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14900,7 +14899,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 165.1 0)
+			(at 143.51 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15198,8 +15197,7 @@
 	)
 	(symbol
 		(lib_id "glasgow:R-3-way")
-		(at 144.78 189.23 0)
-		(mirror x)
+		(at 144.78 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15207,7 +15205,7 @@
 		(dnp no)
 		(uuid "8fe8451e-cc36-43b2-8de8-a6c64cfadee1")
 		(property "Reference" "R26"
-			(at 146.558 189.484 0)
+			(at 146.558 181.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15216,7 +15214,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 144.018 189.23 0)
+			(at 144.018 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15225,7 +15223,7 @@
 			)
 		)
 		(property "Footprint" "glasgow:R-3-Way_0402_1005Metric"
-			(at 143.002 189.23 90)
+			(at 143.002 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15234,7 +15232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 189.23 0)
+			(at 144.78 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15243,7 +15241,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 189.23 0)
+			(at 144.78 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
