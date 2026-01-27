@@ -9088,16 +9088,6 @@
 		)
 		(uuid "3d2c701c-640d-42ee-a419-cf6b3668f989")
 	)
-	(text "Pairs intentionally swapped \nfor better routing"
-		(exclude_from_sim no)
-		(at 267.208 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "490fec5b-b434-41cc-99b9-c9dd07674be5")
-	)
 	(text "Maybe place\nfor crystal\n"
 		(exclude_from_sim no)
 		(at 106.68 169.418 0)
@@ -9707,7 +9697,7 @@
 		(uuid "7dc83b74-633d-4de6-8157-e9eeda0e22d6")
 	)
 	(label "TRX3+"
-		(at 259.08 88.9 180)
+		(at 259.08 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9817,7 +9807,7 @@
 		(uuid "9fda01c1-ed31-4995-959a-55180a1fcece")
 	)
 	(label "TRX3-"
-		(at 259.08 83.82 180)
+		(at 259.08 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9850,7 +9840,7 @@
 		(uuid "a5dc0d46-c7d1-4482-9ae1-4d9118060540")
 	)
 	(label "TRX1+"
-		(at 259.08 104.14 180)
+		(at 259.08 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9949,7 +9939,7 @@
 		(uuid "bcd2a3d1-a5ed-4430-b515-232c934f0a48")
 	)
 	(label "TRX4-"
-		(at 259.08 76.2 180)
+		(at 259.08 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10026,7 +10016,7 @@
 		(uuid "d3b1b79b-27fc-447a-bfa1-b15cc394bab6")
 	)
 	(label "TRX2+"
-		(at 259.08 96.52 180)
+		(at 259.08 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10081,7 +10071,7 @@
 		(uuid "e1b3359c-2239-42c0-be0a-b62623ec8c56")
 	)
 	(label "TRX2-"
-		(at 259.08 91.44 180)
+		(at 259.08 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10180,7 +10170,7 @@
 		(uuid "eea90cc1-21b1-4ce0-a611-d7c7571cb26b")
 	)
 	(label "TRX1-"
-		(at 259.08 99.06 180)
+		(at 259.08 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10191,7 +10181,7 @@
 		(uuid "f24ae189-2fd3-4f29-9f28-79811c050c7b")
 	)
 	(label "TRX4+"
-		(at 259.08 81.28 180)
+		(at 259.08 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
