@@ -6175,6 +6175,159 @@
 				)
 			)
 		)
+		(symbol "glasgow:TLV74311PDBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV74311PDBVR_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV74311PDBVR_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+1V1"
 			(power)
 			(pin_numbers hide)
@@ -6699,6 +6852,12 @@
 		(uuid "93275bec-f6b9-4d12-909b-8fdf61f81233")
 	)
 	(junction
+		(at 92.71 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "990667e1-a7e7-430e-b103-18107cd0bf85")
+	)
+	(junction
 		(at 261.62 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6781,6 +6940,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e18f014b-7a3d-4c6b-89b2-876dfada7728")
+	)
+	(junction
+		(at 100.33 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e46946f4-0810-4a97-a592-84122cf9fa3a")
 	)
 	(junction
 		(at 92.71 44.45)
@@ -7410,6 +7575,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 143.51) (xy 107.95 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef7935b-a5a3-4e17-8f8a-b3c08f2433e3")
+	)
+	(wire
+		(pts
 			(xy 219.71 93.98) (xy 222.25 93.98)
 		)
 		(stroke
@@ -7417,6 +7592,16 @@
 			(type default)
 		)
 		(uuid "400a553a-5999-466d-bc6d-e8d89dd9144b")
+	)
+	(wire
+		(pts
+			(xy 101.6 139.7) (xy 101.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407d547b-1c44-4644-81f4-c461d05bc776")
 	)
 	(wire
 		(pts
@@ -7457,6 +7642,16 @@
 			(type default)
 		)
 		(uuid "47033b75-63c3-4c2c-94b0-59aece23f7c0")
+	)
+	(wire
+		(pts
+			(xy 101.6 128.27) (xy 101.6 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471f98cf-6f82-42a8-bf3d-f39ab99042c7")
 	)
 	(wire
 		(pts
@@ -7530,6 +7725,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 133.35) (xy 124.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e509617-695c-4314-b341-81d41387d338")
+	)
+	(wire
+		(pts
 			(xy 154.94 128.27) (xy 151.13 128.27)
 		)
 		(stroke
@@ -7577,6 +7782,16 @@
 			(type default)
 		)
 		(uuid "5377d8f8-a7a8-4fc4-9999-af63e33dfc09")
+	)
+	(wire
+		(pts
+			(xy 87.63 128.27) (xy 92.71 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d7df65-2a74-4b35-8a54-95681281b00b")
 	)
 	(wire
 		(pts
@@ -7930,6 +8145,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 128.27) (xy 100.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ebddab-ce40-4875-8676-5778fbed3f4a")
+	)
+	(wire
+		(pts
 			(xy 21.59 57.15) (xy 24.13 57.15)
 		)
 		(stroke
@@ -7997,6 +8222,16 @@
 			(type default)
 		)
 		(uuid "8d7ae34d-e78c-46ef-8944-38df1d064c23")
+	)
+	(wire
+		(pts
+			(xy 87.63 128.27) (xy 87.63 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da1167a-e4d9-4615-a0cd-8ab3da9179a5")
 	)
 	(wire
 		(pts
@@ -8210,6 +8445,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 128.27) (xy 92.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca7afd0-09ce-4bb0-a1b0-2cbfd74537b1")
+	)
+	(wire
+		(pts
 			(xy 175.26 132.08) (xy 175.26 130.81)
 		)
 		(stroke
@@ -8407,6 +8652,16 @@
 			(type default)
 		)
 		(uuid "b42bb3ff-4134-4be8-b102-0be6eb402f08")
+	)
+	(wire
+		(pts
+			(xy 87.63 140.97) (xy 87.63 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b55c0add-c8db-46eb-97b6-5086b2cb4598")
 	)
 	(wire
 		(pts
@@ -8730,6 +8985,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 139.7) (xy 101.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d577383a-bbd1-4423-95be-d9473e4cd289")
+	)
+	(wire
+		(pts
 			(xy 278.13 140.97) (xy 280.67 140.97)
 		)
 		(stroke
@@ -8880,6 +9145,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 127) (xy 100.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea20cc9d-bedb-4c6b-a84b-b1eccdc168fc")
+	)
+	(wire
+		(pts
 			(xy 21.59 59.69) (xy 21.59 57.15)
 		)
 		(stroke
@@ -9000,6 +9275,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 128.27) (xy 100.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5c0632-1f19-4de4-8199-b272f7cb0213")
+	)
+	(wire
+		(pts
 			(xy 27.94 57.15) (xy 30.48 57.15)
 		)
 		(stroke
@@ -9057,6 +9342,18 @@
 		(uuid abde88a3-abfc-4004-bbae-51c85ad3ac35)
 	)
 	(rectangle
+		(start 78.74 114.3)
+		(end 132.08 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b8e19fef-5a4e-4b38-b18b-8b28761c01e4)
+	)
+	(rectangle
 		(start 246.38 50.8)
 		(end 284.48 162.56)
 		(stroke
@@ -9067,6 +9364,16 @@
 			(type none)
 		)
 		(uuid ccd7a213-2d33-4954-9435-39aafeb5d544)
+	)
+	(text "Place for \nexternal +1v1"
+		(exclude_from_sim no)
+		(at 121.92 136.906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06c745d5-5d5a-4bff-99e6-ccd0cb984bcb")
 	)
 	(text "OSC"
 		(exclude_from_sim no)
@@ -9128,6 +9435,16 @@
 		)
 		(uuid "6e223ef8-2d4c-45ec-abc3-626598cd9bc1")
 	)
+	(text "Place for \nexternal +1v1"
+		(exclude_from_sim no)
+		(at 97.028 143.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cc65c5e-aa79-4e99-9677-230eeee91427")
+	)
 	(text "connector/chassis\nground"
 		(exclude_from_sim no)
 		(at 267.462 132.08 0)
@@ -9157,6 +9474,16 @@
 			)
 		)
 		(uuid "9602424f-e096-4f66-8526-5476cdf76931")
+	)
+	(text "+1V1"
+		(exclude_from_sim no)
+		(at 86.614 118.11 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "9656ba77-2470-474f-93dc-ff49f959a9a9")
 	)
 	(text "XTAL"
 		(exclude_from_sim no)
@@ -9190,7 +9517,7 @@
 	)
 	(text "Maybe place\nfor crystal\n"
 		(exclude_from_sim no)
-		(at 127.254 182.372 0)
+		(at 130.556 158.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9237,6 +9564,16 @@
 			)
 		)
 		(uuid "c52b8410-a58d-4848-9c1f-d38908d8a908")
+	)
+	(text "Place for \ninternal +1v1"
+		(exclude_from_sim no)
+		(at 223.52 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c730fe41-aca6-4044-9ac6-36a07790b8b5")
 	)
 	(text "Glasgow Port A/B"
 		(exclude_from_sim no)
@@ -12368,6 +12705,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V1")
+		(at 127 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38e48188-60ef-4a6a-815f-58f35bd8e890")
+		(property "Reference" "#PWR013"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 127 129.2169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e8dec95-d0d5-416b-911c-f0547a78e936")
+		)
+		(instances
+			(project "glasgow ethernet adapter"
+				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "glasgow:R-3-way")
 		(at 68.58 133.35 0)
 		(unit 1)
@@ -14043,6 +14446,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 92.71 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b76504f-8154-489d-8055-f6b1163c16cf")
+		(property "Reference" "R27"
+			(at 94.488 134.6778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 94.488 137.1021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 94.488 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7c46aea-b7cc-41c0-9e37-8ed58c78244d")
+		)
+		(pin "2"
+			(uuid "a3233dc3-ffda-4a1c-bf47-9218a40208aa")
+		)
+		(instances
+			(project "glasgow ethernet adapter"
+				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 154.94 0)
 		(unit 1)
@@ -15400,6 +15873,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 120.65 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9464d54b-38a8-4f3c-9d86-ec9c2914afcf")
+		(property "Reference" "L4"
+			(at 120.65 128.7002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2 uH"
+			(at 120.65 131.1245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f95cf323-e202-4739-8526-d9cc8548b64d")
+		)
+		(pin "1"
+			(uuid "636579ca-bf9e-4080-8de9-1956e0b3fde2")
+		)
+		(instances
+			(project "glasgow ethernet adapter"
+				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 148.59 20.32 0)
 		(unit 1)
@@ -16411,6 +16951,71 @@
 			(project "glasgow ethernet adapter"
 				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afba7ad4-5c40-4d0c-aa94-a9f345bd9180")
+		(property "Reference" "#PWR057"
+			(at 87.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 146.3731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "351a6063-4b3d-4357-985e-71f0e0a545db")
+		)
+		(instances
+			(project "glasgow ethernet adapter"
+				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -17504,6 +18109,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 107.95 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7f2f93f-b103-476b-a806-cae1cd851862")
+		(property "Reference" "#PWR020"
+			(at 107.95 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 147.6431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eae003a-1f0f-4811-9321-854e680514aa")
+		)
+		(instances
+			(project "glasgow ethernet adapter"
+				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 49.53 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17700,6 +18370,75 @@
 			(project "glasgow ethernet adapter"
 				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dee85799-4b5b-4b12-92a8-036c987104bd")
+		(property "Reference" "C16"
+			(at 81.534 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 81.534 138.0603 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 88.5952 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e74a0c5-bfac-4678-b5c9-9992de48b83a")
+		)
+		(pin "1"
+			(uuid "dee73efb-74fc-49cd-acd2-e3a0870955d3")
+		)
+		(instances
+			(project "glasgow ethernet adapter"
+				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -18108,6 +18847,83 @@
 		)
 	)
 	(symbol
+		(lib_id "glasgow:TLV74311PDBVR")
+		(at 109.22 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f93b67cc-8859-4510-ab4e-e3535b62ebf4")
+		(property "Reference" "U2"
+			(at 109.22 128.7865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 109.22 130.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv743p.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1769418638709&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftlv743p"
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0fcc754a-0da6-487b-8a13-11ccaf25f938")
+		)
+		(pin "2"
+			(uuid "4a5b9a25-f7cf-4752-9753-dc882046a50d")
+		)
+		(pin "4"
+			(uuid "b512bf85-9e5d-4560-aa9c-c13c15ef3129")
+		)
+		(pin "5"
+			(uuid "815af310-69a3-4b31-805f-43a57cac532a")
+		)
+		(pin "1"
+			(uuid "fbd7001c-0280-4c15-9337-ca386408c708")
+		)
+		(instances
+			(project "glasgow ethernet adapter"
+				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 40.64 0)
 		(unit 1)
@@ -18277,6 +19093,72 @@
 			(project "glasgow ethernet adapter"
 				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 100.33 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe30af80-d8a7-4c93-9407-9e7bda448b96")
+		(property "Reference" "#PWR07"
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 100.33 122.8669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 100.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5af4559-37a7-411d-a58c-02fe6d1f13c7")
+		)
+		(instances
+			(project "glasgow ethernet adapter"
+				(path "/fb29a680-9889-4434-a9c5-c40bcbb39141"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
