@@ -105238,6 +105238,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "RX CTL\n"
+		(at 163.1 87.85 90)
+		(layer "F.SilkS")
+		(uuid "ba585d44-0e5a-4416-98f2-bb80ec7a3e15")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "TX CLK"
 		(at 173.495 116.256 90)
 		(layer "F.SilkS")
