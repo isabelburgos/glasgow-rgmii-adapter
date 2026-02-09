@@ -9627,7 +9627,7 @@
 		(uuid "feb124b5-3c56-4461-b7ca-88cb10deacca")
 	)
 	(label "TXD1"
-		(at 73.66 44.45 180)
+		(at 73.66 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9682,7 +9682,7 @@
 		(uuid "1093e427-c1cf-4a4b-8476-5ab155c3e3de")
 	)
 	(label "TXD2"
-		(at 73.66 46.99 180)
+		(at 73.66 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9913,7 +9913,7 @@
 		(uuid "63471e13-7041-41a5-bb0b-027bcdeca840")
 	)
 	(label "MDIO"
-		(at 73.66 52.07 180)
+		(at 73.66 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9990,7 +9990,7 @@
 		(uuid "7319bb27-808b-4c7f-8aa7-28b3a719cd2d")
 	)
 	(label "TXD3"
-		(at 73.66 49.53 180)
+		(at 73.66 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10122,7 +10122,7 @@
 		(uuid "9e3664f1-2eaf-4d0d-a5ac-89082b207297")
 	)
 	(label "MDC"
-		(at 73.66 54.61 180)
+		(at 73.66 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10375,7 +10375,7 @@
 		(uuid "da19ae06-51ea-47b9-9deb-2fa4c54dc29d")
 	)
 	(label "TXD0"
-		(at 73.66 41.91 180)
+		(at 73.66 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
