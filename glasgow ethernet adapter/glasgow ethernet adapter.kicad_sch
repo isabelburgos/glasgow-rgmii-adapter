@@ -11001,7 +11001,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_0"
 			(at 270.1925 22.7908 0)
 			(effects
 				(font
@@ -11069,7 +11069,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1k"
 			(at 262.89 26.67 90)
 			(effects
 				(font
@@ -12653,7 +12653,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_3"
 			(at 273.3675 35.4908 0)
 			(effects
 				(font
@@ -14729,7 +14729,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1k"
 			(at 262.89 39.37 90)
 			(effects
 				(font
@@ -16558,7 +16558,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_1"
 			(at 273.3675 30.4108 0)
 			(effects
 				(font
@@ -18325,7 +18325,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1k"
 			(at 262.89 34.29 90)
 			(effects
 				(font
