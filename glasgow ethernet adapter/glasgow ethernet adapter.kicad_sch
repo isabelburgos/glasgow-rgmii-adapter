@@ -10947,7 +10947,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part ID" ""
+		(property "JLC Part ID" "C111340"
 			(at 271.78 26.67 0)
 			(effects
 				(font
@@ -12662,7 +12662,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_3"
+		(property "Value" "LED_2"
 			(at 273.3675 35.4908 0)
 			(effects
 				(font
@@ -12698,7 +12698,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part ID" ""
+		(property "JLC Part ID" "C2977076"
 			(at 271.78 39.37 0)
 			(effects
 				(font
@@ -16844,7 +16844,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part ID" ""
+		(property "JLC Part ID" "C83904"
 			(at 271.78 34.29 0)
 			(effects
 				(font
@@ -19407,7 +19407,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part ID" "C102924"
+		(property "JLC Part ID" "C15402"
 			(at 124.46 133.35 0)
 			(effects
 				(font
