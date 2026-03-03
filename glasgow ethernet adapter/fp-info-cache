@@ -1,4 +1,4 @@
-27263915206816331
+27263915248187258
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107912,13 +107912,6 @@ AMPHENOL_RJMG201K21120FR
 16
 15
 glasgow
-AMPHENOL_RJMG201K21120FR_generic_compat_mod
-
-
-0
-18
-17
-glasgow
 Glasgow
 
 
@@ -107931,7 +107924,7 @@ HR911130C_HAN
 HR911130C 
 0
 16
-16
+14
 glasgow
 IDC-Header_2x10_P2.54mm_Vertical_No_Pin_1_Mark
 Through hole IDC box header, 2x10, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
@@ -107983,6 +107976,13 @@ XTAL_ECS-160-9-37-CKM-TR
 4
 glasgow
 cat
+
+
+0
+0
+0
+glasgow
+sparkle
 
 
 0

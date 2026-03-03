@@ -106760,6 +106760,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Glasgow Ethernet Adapter"
+		(at 129.84 118.38 0)
+		(layer "F.SilkS")
+		(uuid "0dc19a29-95bd-432b-98b8-226ee23fcb7b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "revB"
+		(at 129.79 120.43 0)
+		(layer "F.SilkS")
+		(uuid "130158d1-c73f-463e-90db-d7228bf88843")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "2"
 		(at 151.075 103.235111 0)
 		(layer "F.SilkS")
@@ -106803,6 +106829,19 @@
 		(at 151.075 99.840222 0)
 		(layer "F.SilkS")
 		(uuid "39a6bb3b-9e70-4fbc-a4dd-16094b8d0b2d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2026-03-03"
+		(at 137.29 120.28 0)
+		(layer "F.SilkS")
+		(uuid "5201a444-41e0-4b88-b809-3e5bc76a22c3")
 		(effects
 			(font
 				(size 0.8 0.8)
